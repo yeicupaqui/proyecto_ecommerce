@@ -1,0 +1,28 @@
+{% extends 'farma/main.html' %}
+
+{% block titulo %}
+    lista de productos
+
+    
+{% endblock %}
+
+
+{% block contenido %}
+
+<h1>Lista de productos</h1>
+
+{% for p in lista  %}
+<p>
+    Codigo: {{ p.codigo }}
+    Nombre: {{ p.nombre }}
+    Precio: {{ p.precio }}
+    Especificacion:{{ p.Especificacion }}
+    Categoria: {{ p.Categoria }}
+
+</p>
+    
+{% endfor %}
+    
+    
+{% endblock %}
+    

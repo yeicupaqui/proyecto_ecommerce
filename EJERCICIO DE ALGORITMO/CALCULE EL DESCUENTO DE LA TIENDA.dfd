@@ -1,0 +1,29 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+30
+'digite el total de su compra'
+5
+1
+6
+totalc
+6
+2
+9
+descuento
+13
+totalc*15/100
+12
+presiofinal 
+16
+totalc-descuento
+4
+1
+57
+'el precio final con el 15% de descuento es:',presiofinal
+1

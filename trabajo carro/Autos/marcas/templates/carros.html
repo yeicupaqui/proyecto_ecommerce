@@ -1,0 +1,128 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+
+
+
+{% block js %}
+
+
+<!-- <script>
+    	var gallery = new SimpleLightbox('.photo_gallery a');
+    </script>  -->
+
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+<br>
+
+
+<div class="container">
+
+	<div class="row">
+		{% for p in carros %}
+
+		<div class="col-lg-4">
+			<div class="box-element product">
+
+
+				<img src="/media/{{ p.foto }}" class="d-block w-100">
+				<h6><strong>{{p.nombre | title }}</strong></h6>
+				<hr>
+			
+				<a class="btn btn-outline-success" href="{% url 'detalle' p.id %}"><i class="fas fa-tags"></i>View</a>
+				
+
+			</div>
+		</div>
+
+
+
+		{% endfor %}
+
+
+		<!-- Imagenes -->
+		<!-- {% for i in imagenes %}
+			{% if p.id == i.producto.id %}
+
+			<section class="photo_gallery">
+				<a href=""><img class="thumbnail" src="/media/{{ i.imagen }}" class="d-block w-100" alt="" height=""></a>
+
+
+			</section>
+			{% endif %}
+			{% endfor %} -->
+		<!-- Fin Imagenes -->
+
+	</div>
+</div>
+
+
+<br>
+<br>
+<br> 
+
+
+
+<div class=" container">
+
+
+	<center>
+
+		<div class="Titulo">
+
+			<div class="categoria center" style="display: block;">
+				<h1><strong></strong></h1>
+				<h1> </h1>
+
+			</div>
+
+		</div>
+
+	</center>
+
+
+
+
+
+	<div class="grid-container-category scrollhorizontal">
+
+
+
+
+
+
+
+
+
+	</div>
+
+</div>
+
+
+<div class="row">
+
+	<br>
+	<br>
+</div>
+
+
+
+{% endblock content %}

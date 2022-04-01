@@ -1,0 +1,35 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+21
+'escriba el diametro'
+5
+1
+8
+diametro
+6
+2
+5
+radio
+4
+10/2
+2
+pi
+6
+3.1416
+6
+1
+5
+areac
+14
+pi*radio*radio
+4
+1
+31
+'el area del circulo es:',areac
+1

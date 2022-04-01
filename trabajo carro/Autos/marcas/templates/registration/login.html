@@ -1,0 +1,32 @@
+{% extends "base_bootstrap.html" %}
+{% load static %}
+{% block content %}
+
+{% if form.errors %}
+  
+{% endif %}
+
+<form method="post" action="{% url 'login' %}">
+{% csrf_token %}
+{{ form.as_p }}
+<input type="submit" class="btn btn-primary" value="Login" />
+<input type="hidden" name="next" value="{{ next }}" />
+</form>
+
+<style>
+  form{
+    width: 400px;
+    height: 340px;
+    background: azure ;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px rgb(0, 0, 0);
+    padding: 20px 30px;
+    border-top: 4px solid #017bab;
+    color: #000;
+  }
+  
+
+</style>
+
+{% endblock %}

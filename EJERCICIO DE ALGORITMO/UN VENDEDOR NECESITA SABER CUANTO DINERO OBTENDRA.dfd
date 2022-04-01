@@ -1,0 +1,41 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+32
+'esciba las tres ventas del mes'
+5
+1
+20
+venta1,venta2,venta3
+4
+1
+24
+'escriba el sueldo base'
+5
+1
+6
+sueldo
+6
+1
+8
+comision
+26
+venta1+venta2+venta3 * 1.0
+4
+1
+28
+'el sueldo base es:$',sueldo
+4
+1
+35
+'la comision del mes es:$',comision
+4
+1
+46
+'el sueldo total del mes es:$',sueldo+comision
+1

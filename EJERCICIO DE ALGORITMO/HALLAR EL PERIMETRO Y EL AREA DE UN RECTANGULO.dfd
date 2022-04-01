@@ -1,0 +1,33 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+48
+'hallar el perimetro y el area de un rectangulo'
+5
+1
+11
+base,altura
+6
+2
+4
+area
+11
+base*altura
+9
+perimetro
+15
+2*base+2*altura
+4
+1
+27
+'area del rectangulo:',area
+4
+1
+37
+'perimetro del rectangulo:',perimetro
+1
